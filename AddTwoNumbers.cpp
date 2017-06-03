@@ -10,6 +10,7 @@ struct ListNode {
 };
 ListNode *invertList(ListNode *l);
 ListNode *addLists(ListNode *l1, ListNode *l2);
+/*
 int main(){
     ListNode *l1 = new ListNode(1);
     ListNode *l2 = new ListNode(9);
@@ -27,7 +28,7 @@ int main(){
         test=test->next;
     }
 }
-
+*/
 ListNode *addLists(ListNode *l1, ListNode *l2){
     if (l1 == NULL) return l2;
     if (l2 == NULL) return l1;

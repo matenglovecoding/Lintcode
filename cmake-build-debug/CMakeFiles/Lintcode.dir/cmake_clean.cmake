@@ -1,9 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj"
+  "CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.o"
+  "CMakeFiles/Lintcode.dir/ReverseWordsInaString.cpp.o"
   "Lintcode.pdb"
-  "Lintcode.exe"
-  "Lintcode.exe.manifest"
-  "libLintcode.dll.a"
+  "Lintcode"
 )
 
 # Per-language clean rules from dependency scanning.

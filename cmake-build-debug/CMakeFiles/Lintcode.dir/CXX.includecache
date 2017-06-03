@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/t-tema/CLionProjects/Lintcode/AddTwoNumbers.cpp
+/home/mateng/CLionProjects/Lintcode/AddTwoNumbers.cpp
 iostream
+-
+
+/home/mateng/CLionProjects/Lintcode/ReverseWordsInaString.cpp
+iostream
+-
+string
+-
+algorithm
 -
 
