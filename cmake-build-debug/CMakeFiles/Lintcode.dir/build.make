@@ -56,69 +56,43 @@ include CMakeFiles/Lintcode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lintcode.dir/flags.make
 
-CMakeFiles/Lintcode.dir/main.cpp.obj: CMakeFiles/Lintcode.dir/flags.make
-CMakeFiles/Lintcode.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lintcode.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lintcode.dir\main.cpp.obj -c C:\Users\t-tema\CLionProjects\Lintcode\main.cpp
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj: CMakeFiles/Lintcode.dir/flags.make
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj: ../AddTwoNumbers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lintcode.dir\AddTwoNumbers.cpp.obj -c C:\Users\t-tema\CLionProjects\Lintcode\AddTwoNumbers.cpp
 
-CMakeFiles/Lintcode.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lintcode.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\t-tema\CLionProjects\Lintcode\main.cpp > CMakeFiles\Lintcode.dir\main.cpp.i
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\t-tema\CLionProjects\Lintcode\AddTwoNumbers.cpp > CMakeFiles\Lintcode.dir\AddTwoNumbers.cpp.i
 
-CMakeFiles/Lintcode.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lintcode.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\t-tema\CLionProjects\Lintcode\main.cpp -o CMakeFiles\Lintcode.dir\main.cpp.s
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\t-tema\CLionProjects\Lintcode\AddTwoNumbers.cpp -o CMakeFiles\Lintcode.dir\AddTwoNumbers.cpp.s
 
-CMakeFiles/Lintcode.dir/main.cpp.obj.requires:
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Lintcode.dir/main.cpp.obj.requires
+.PHONY : CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.requires
 
-CMakeFiles/Lintcode.dir/main.cpp.obj.provides: CMakeFiles/Lintcode.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/Lintcode.dir/main.cpp.obj.provides
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.provides: CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.provides.build
+.PHONY : CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.provides
 
-CMakeFiles/Lintcode.dir/main.cpp.obj.provides.build: CMakeFiles/Lintcode.dir/main.cpp.obj
-
-
-CMakeFiles/Lintcode.dir/test.cpp.obj: CMakeFiles/Lintcode.dir/flags.make
-CMakeFiles/Lintcode.dir/test.cpp.obj: test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lintcode.dir/test.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Lintcode.dir\test.cpp.obj -c C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\test.cpp
-
-CMakeFiles/Lintcode.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lintcode.dir/test.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\test.cpp > CMakeFiles\Lintcode.dir\test.cpp.i
-
-CMakeFiles/Lintcode.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lintcode.dir/test.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\test.cpp -o CMakeFiles\Lintcode.dir\test.cpp.s
-
-CMakeFiles/Lintcode.dir/test.cpp.obj.requires:
-
-.PHONY : CMakeFiles/Lintcode.dir/test.cpp.obj.requires
-
-CMakeFiles/Lintcode.dir/test.cpp.obj.provides: CMakeFiles/Lintcode.dir/test.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/test.cpp.obj.provides.build
-.PHONY : CMakeFiles/Lintcode.dir/test.cpp.obj.provides
-
-CMakeFiles/Lintcode.dir/test.cpp.obj.provides.build: CMakeFiles/Lintcode.dir/test.cpp.obj
+CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.provides.build: CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj
 
 
 # Object files for target Lintcode
 Lintcode_OBJECTS = \
-"CMakeFiles/Lintcode.dir/main.cpp.obj" \
-"CMakeFiles/Lintcode.dir/test.cpp.obj"
+"CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj"
 
 # External object files for target Lintcode
 Lintcode_EXTERNAL_OBJECTS =
 
-Lintcode.exe: CMakeFiles/Lintcode.dir/main.cpp.obj
-Lintcode.exe: CMakeFiles/Lintcode.dir/test.cpp.obj
+Lintcode.exe: CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj
 Lintcode.exe: CMakeFiles/Lintcode.dir/build.make
 Lintcode.exe: CMakeFiles/Lintcode.dir/linklibs.rsp
 Lintcode.exe: CMakeFiles/Lintcode.dir/objects1.rsp
 Lintcode.exe: CMakeFiles/Lintcode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lintcode.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\t-tema\CLionProjects\Lintcode\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lintcode.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Lintcode.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -126,8 +100,7 @@ CMakeFiles/Lintcode.dir/build: Lintcode.exe
 
 .PHONY : CMakeFiles/Lintcode.dir/build
 
-CMakeFiles/Lintcode.dir/requires: CMakeFiles/Lintcode.dir/main.cpp.obj.requires
-CMakeFiles/Lintcode.dir/requires: CMakeFiles/Lintcode.dir/test.cpp.obj.requires
+CMakeFiles/Lintcode.dir/requires: CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj.requires
 
 .PHONY : CMakeFiles/Lintcode.dir/requires
 

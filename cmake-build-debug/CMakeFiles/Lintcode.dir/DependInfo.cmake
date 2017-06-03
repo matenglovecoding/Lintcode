@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/t-tema/CLionProjects/Lintcode/main.cpp" "C:/Users/t-tema/CLionProjects/Lintcode/cmake-build-debug/CMakeFiles/Lintcode.dir/main.cpp.obj"
-  "C:/Users/t-tema/CLionProjects/Lintcode/cmake-build-debug/test.cpp" "C:/Users/t-tema/CLionProjects/Lintcode/cmake-build-debug/CMakeFiles/Lintcode.dir/test.cpp.obj"
+  "C:/Users/t-tema/CLionProjects/Lintcode/AddTwoNumbers.cpp" "C:/Users/t-tema/CLionProjects/Lintcode/cmake-build-debug/CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

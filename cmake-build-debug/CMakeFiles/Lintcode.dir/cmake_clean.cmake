@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lintcode.dir/main.cpp.obj"
-  "CMakeFiles/Lintcode.dir/test.cpp.obj"
+  "CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj"
   "Lintcode.pdb"
   "Lintcode.exe"
   "Lintcode.exe.manifest"

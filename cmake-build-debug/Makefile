@@ -122,59 +122,32 @@ Lintcode/fast:
 	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/build
 .PHONY : Lintcode/fast
 
-main.obj: main.cpp.obj
+AddTwoNumbers.obj: AddTwoNumbers.cpp.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-test.obj: test.cpp.obj
-
-.PHONY : test.obj
+.PHONY : AddTwoNumbers.obj
 
 # target to build an object file
-test.cpp.obj:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/test.cpp.obj
-.PHONY : test.cpp.obj
+AddTwoNumbers.cpp.obj:
+	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.obj
+.PHONY : AddTwoNumbers.cpp.obj
 
-test.i: test.cpp.i
+AddTwoNumbers.i: AddTwoNumbers.cpp.i
 
-.PHONY : test.i
+.PHONY : AddTwoNumbers.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/test.cpp.i
-.PHONY : test.cpp.i
+AddTwoNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.i
+.PHONY : AddTwoNumbers.cpp.i
 
-test.s: test.cpp.s
+AddTwoNumbers.s: AddTwoNumbers.cpp.s
 
-.PHONY : test.s
+.PHONY : AddTwoNumbers.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/test.cpp.s
-.PHONY : test.cpp.s
+AddTwoNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles\Lintcode.dir\build.make CMakeFiles/Lintcode.dir/AddTwoNumbers.cpp.s
+.PHONY : AddTwoNumbers.cpp.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... Lintcode
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
+	@echo ... AddTwoNumbers.obj
+	@echo ... AddTwoNumbers.i
+	@echo ... AddTwoNumbers.s
 .PHONY : help
 
 

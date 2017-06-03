@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/t-tema/CLionProjects/Lintcode/cmake-build-debug/test.cpp">
-			<Option target="Lintcode"/>
-		</Unit>
-		<Unit filename="C:/Users/t-tema/CLionProjects/Lintcode/main.cpp">
+		<Unit filename="C:/Users/t-tema/CLionProjects/Lintcode/AddTwoNumbers.cpp">
 			<Option target="Lintcode"/>
 		</Unit>
 		<Unit filename="C:/Users/t-tema/CLionProjects/Lintcode/CMakeLists.txt">

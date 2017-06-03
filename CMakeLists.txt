@@ -3,5 +3,5 @@ project(Lintcode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp cmake-build-debug/test.cpp)
+set(SOURCE_FILES AddTwoNumbers.cpp)
 add_executable(Lintcode ${SOURCE_FILES})
